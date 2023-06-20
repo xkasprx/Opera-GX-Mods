@@ -1,0 +1,7 @@
+uniform shader iChunk;
+
+const float4 TINT = float4(1, 0.75, 0.6, 1);
+
+vec4 main(vec2 xy){
+    return pow(iChunk.eval(xy), TINT);
+}
