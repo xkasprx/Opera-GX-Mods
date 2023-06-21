@@ -4,6 +4,28 @@
   --opera-gx-bg-1: url("https://cdn.discordapp.com/attachments/1120918825249017877/1120918946653155408/engrave.png");
 }
 
+/* Hide custom Nitro themes background */
+.custom-theme-background {
+  --bg-overlay-color: auto !important;
+  --bg-overlay-color-inverse: auto !important;
+  --bg-overlay-opacity-1: auto !important;
+  --bg-overlay-opacity-2: auto !important;
+  --bg-overlay-opacity-3: auto !important;
+  --bg-overlay-opacity-4: auto !important;
+  --bg-overlay-opacity-5: auto !important;
+  --bg-overlay-opacity-6: auto !important;
+  --bg-overlay-opacity-hover: auto !important;
+  --bg-overlay-opacity-hover-inverse: auto !important;
+  --bg-overlay-opacity-active: auto !important;
+  --bg-overlay-opacity-active-inverse: auto !important;
+  --bg-overlay-opacity-selected: auto !important;
+  --bg-overlay-opacity-selected-inverse: auto !important;
+  --bg-overlay-opacity-chat: auto !important;
+  --bg-overlay-opacity-home: auto !important;
+  --bg-overlay-opacity-home-card: auto !important;
+  --bg-overlay-opacity-app-frame: auto !important;
+}
+
 .theme-light,
 .theme-dark {
   --text-normal: rgb(var(--normal-font)) !important;
@@ -880,7 +902,8 @@ html #app-mount:before,
 }
 
 /* When you hovering over button*/
-#app-mount .lookFilled-1H2Jvj.colorPrimary-2-Lusz:hover {
+#app-mount .lookFilled-1H2Jvj.colorPrimary-2-Lusz:hover,
+#app-mount .lookFilled-1H2Jvj.colorGreen-jIPCAS:hover {
   color: var(--normal-hover-font);
   background: linear-gradient(135deg, rgba(var(--accent-color-1), 0.5), rgba(var(--accent-color-2), 0.5));
 }
@@ -911,7 +934,9 @@ html #app-mount:before,
   color: rgb(var(--font-in-accent)) !important;
 }
 
+
 #app-mount .lookFilled-1H2Jvj.colorPrimary-2-Lusz,
+#app-mount .lookFilled-1H2Jvj.colorGreen-jIPCAS,
 #app-mount .lookFilled-yCfaCM.colorBrand-I6CyqQ,
 #app-mount .lookFilled-yCfaCM.colorPrimary-2AuQVo {
   color: rgb(var(--font-in-accent));
