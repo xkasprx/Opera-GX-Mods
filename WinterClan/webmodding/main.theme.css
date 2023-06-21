@@ -1,7 +1,7 @@
 :root {
   --border-color-accent-1: 1px solid rgba(var(--accent-color-1),var(--border-brightness));
   /* Common Backgrounds */
-  --opera-gx-bg-1: url("https://dmskaspr.com/images/winter/engrave.png");
+  --opera-gx-bg-1: url("https://cdn.discordapp.com/attachments/1120918825249017877/1120918946653155408/engrave.png");
 }
 
 .theme-light,
