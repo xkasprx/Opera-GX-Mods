@@ -26,6 +26,11 @@
   --bg-overlay-opacity-app-frame: auto !important;
 }
 
+#app-mount .modeUnread-3Cxepe .name-28HaxV,
+.numberBadge-3uSQY0 {
+  z-index: 1;
+}
+
 .theme-light,
 .theme-dark {
   --text-normal: rgb(var(--normal-font)) !important;
