@@ -1,0 +1,174 @@
+{
+    "name": "Winter Clan",
+    "description": "Winter Clan based mod for Opera GX. This mod brings in many of the elements that are present in the world of Winter and allow you to take them with you across the internet, wherever you browse. Winter Clan is a 16+ gaming community that has grown to be the home to more than 17,000 members worldwide for the past 20 years. Come check it out at https://winterclan.net and or on Discord https://discord.gg/winterclan/ ~ Stay Frosty!",
+    "developer":
+    {
+        "name": "xKaspr (Winter Clan Developer)"
+    },
+    "icons":
+    {
+        "512": "icon_512.png"
+    },
+    "manifest_version": 3,
+    "mod":
+    {
+        "license": "license.txt",
+        "payload":
+        {
+            "background_music":
+            [
+				"music/layer1.mp3",
+				"music/layer2.mp3",
+				"music/layer3.mp3"
+            ],
+            "browser_sounds":
+            {
+                "CLICK":
+                [
+					"sound/click.mp3"
+                ],
+                "FEATURE_SWITCH_OFF":
+                [
+					"sound/feature off.mp3"
+                ],
+                "FEATURE_SWITCH_ON":
+                [
+					"sound/feature on.mp3"
+                ],
+                "HOVER":
+                [
+					"sound/hover.mp3"
+                ],
+                "HOVER_UP":
+                [
+					"sound/hover up.mp3"
+                ],
+                "IMPORTANT_CLICK":
+                [
+					"sound/important.mp3"
+                ],
+                "LEVEL_UPGRADE":
+                [
+					"sound/upgrade.mp3"
+                ],
+                "LIMITER_OFF":
+                [
+					"sound/limiter off.mp3"
+                ],
+                "LIMITER_ON":
+                [
+					"sound/limiter on.mp3"
+                ],
+                "SWITCH_TOGGLE":
+                [
+					"sound/toggle.mp3"
+                ],
+                "TAB_CLOSE":
+                [
+					"sound/close.mp3"
+                ],
+                "TAB_INSERT":
+                [
+					"sound/insert.mp3"
+                ],
+                "TAB_SLASH":
+                [
+					"sound/slash.mp3"
+				]
+            },
+            "keyboard_sounds":
+            {
+                "TYPING_BACKSPACE":
+                [
+					"keyboard/backspace.mp3"
+                ],
+                "TYPING_ENTER":
+                [
+					"keyboard/enter.mp3"
+                ],
+                "TYPING_LETTER":
+                [
+					"keyboard/letter1.mp3",
+					"keyboard/letter2.mp3"
+                ],
+                "TYPING_SPACE":
+                [
+					"keyboard/space.mp3"
+                ]
+            },
+            "page_styles":
+            [
+                {
+                    "css":
+                    [
+						"webmodding/winter.css"
+                    ],
+                    "matches":
+                    [
+						"https://*.discord.com/*"
+                    ]
+                }
+            ],
+            "shaders":
+            {
+                "Winter":
+                {
+
+                    "path": "shader/winter.txt"
+                }
+            },
+            "theme":
+            {
+                "dark":
+                {
+                    "gx_accent":
+                    {
+                        "h": 202,
+                        "s": 70.2,
+                        "l": 53
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 214,
+                        "s": 6.4,
+                        "l": 21.4
+                    }
+                },
+                "light":
+                {
+                    "gx_accent":
+                    {
+                        "h": 202,
+                        "s": 70.2,
+                        "l": 53
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 214,
+                        "s": 6.4,
+                        "l": 21.4
+                    }
+                }
+            },
+            "wallpaper":
+            {
+                "light":
+                {   
+                    "image": "wallpaper/light.webm",
+                    "first_frame": "wallpaper/light.png",
+                    "text_color": "#37A0DC",
+                    "text_shadow": "#2E3136"
+                },
+				"dark":
+                {   
+                    "image": "wallpaper/dark.webm",
+                    "first_frame": "wallpaper/dark.png",
+					"text_color": "#37A0DC",
+                    "text_shadow": "#2E3136"
+                }
+            }
+        },
+        "schema_version": 1
+    },
+    "version": "1.1.3"
+}
